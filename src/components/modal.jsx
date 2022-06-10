@@ -27,19 +27,19 @@ function ModalItem(props) {
             <ListGroup.Item>
               <h4>
                 Species:
-                <small class="text-muted"> {character.species}</small>
+                <small className="text-muted"> {character.species}</small>
               </h4>
             </ListGroup.Item>
             <ListGroup.Item>
               <h4>
                 Gender:
-                <small class="text-muted"> {character.gender}</small>
+                <small className="text-muted"> {character.gender}</small>
               </h4>
             </ListGroup.Item>
             <ListGroup.Item>
               <h4>
                 Status:
-                <small class="text-muted"> {character.status}</small>
+                <small className="text-muted"> {character.status}</small>
               </h4>
             </ListGroup.Item>
           </ListGroup>

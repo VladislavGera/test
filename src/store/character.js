@@ -4,14 +4,20 @@ const characterSlice = createSlice({
   name: 'character',
   initialState: {
     characters: [],
-    character: null,
+    character: {
+      gender:'',
+      species:'',
+      image:'',
+      status:'',
+      name:''
+    },
     pages: 0,
   },
   reducers: {
     setListCharacters(state, action) {
       const data = action.payload
-      state.characters = data.characters
-      state.pages = data.pages
+       state.pages = data.pages
+       state.characters = data.characters
     },
     setCharacter(state, action) {
       const data = action.payload
